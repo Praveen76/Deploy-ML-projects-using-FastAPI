@@ -21,6 +21,26 @@ The project uses a pre-trained model to predict the survival of passengers on th
 
 You can install the required packages using `pip install -r requirements.txt`.
 
+## Project structure:
+The project has the following structure:
+
+```
+Deploy-ML-projects-using-FastAPI
+├── app
+│   ├── __init__.py
+│   ├── config.py
+│   ├── main.py
+│   ├── api.py
+│   └── schemas
+│       ├── __init__.py
+│       ├── health.py
+│       └── predict.py
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+
 ## Usage
 
 To run the API server, execute the following command:
